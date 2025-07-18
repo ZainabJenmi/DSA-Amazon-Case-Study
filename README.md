@@ -1,12 +1,10 @@
 #  DSA- Amazon Product Review Analysis (RetailTech Insights) Case study
-## Amazon Case Study
-## Project Overview
-This project contains analysis of an amazon business … based on customers rating 
+
 ## Business Introduction 
 RetailTech Insights is a company that provides E-commerce analytics solutions to sellers on platforms like Amazon. 
 
-## Aim  
-The aim of this project is to analyze product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement. This was done by answering the following business questions:
+## Project Objective 
+The aim of this project is to analyze product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement. This was done by answering these following business questions:
 1. What is the average discount percentage by product category?
 2. How many products are listed under each category?
 3. What is the total number of reviews per category?
@@ -23,18 +21,20 @@ The aim of this project is to analyze product and customer review data to genera
 12. How many products have fewer than 1,000 reviews?
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of rating and number of reviews combined.
+    
 ## Dataset Description
 The dataset contains information scraped from Amazon product pages, including:
--Product details: name, category, price, discount, and ratings
--Customer engagement: user reviews, titles, and content
--Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
-Total Records: 1,465 rows
-Total Fields: 16 columns.
-## Tools
-Microsoft Excel 
-Excel Pivot tables 
-Excel Pivot Charts
-Dashboard
+
+  -Product details: name, category, price, discount, and ratings
+  -Customer engagement: user reviews, titles, and content
+  -Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
+  Total Records: 1,465 rows.
+  Total Fields: 16 columns.
+
+## Tool
+   -Microsoft Excel 
+   -Excel Pivot tables 
+   -Excel Pivot Charts
 
 ## Process 
 ### Step 1: Data Cleaning and transformation 
@@ -43,7 +43,6 @@ Dashboard
 -Excess space and 
 -Standard data format to the appropriate format
 -Trimming the category then breaking into subcategories for better summarization.
-
 ### Step 2: Data Analysis:
 -Created calculated columns for KPI (revenue)
 ### Step 3: Data Visualization 
@@ -61,5 +60,6 @@ Dashboard
 4.	Products with high rating have a high discount.
 5.	Most Products price range are greater than ₹500.
 6.	Customers Engagement by category does not directly depend on Discounts.
+   
 ## Recommendation
 1.	Home&Kitchen has potential so 

@@ -50,6 +50,9 @@ Dashboard
 -Built Interactive Dashboard using Slicers filters 
 -Used bar chart, graphs to visualize 
 -Created KPIs
+
+<img width="1899" height="679" alt="Screenshot (398)" src="https://github.com/user-attachments/assets/b23e6dea-9dd4-4032-862f-3062bccfd0ae" />
+
 ## Insights
 1.	Electronic category has the highest products.
 2.	Most products are rated above average (most rating are between 4.0 – 4.3).

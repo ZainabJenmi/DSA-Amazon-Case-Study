@@ -45,13 +45,14 @@ Dashboard
 -Trimming the category then breaking into subcategories for better summarization.
 
 ### Step 2: Data Analysis:
-	-Created calculated columns for KPI (revenue)
+-Created calculated columns for KPI (revenue)
 ### Step 3: Data Visualization 
 -Built Interactive Dashboard using Slicers filters 
 -Used bar chart, graphs to visualize 
 -Created KPIs
 
-<img width="1899" height="679" alt="Screenshot (398)" src="https://github.com/user-attachments/assets/b23e6dea-9dd4-4032-862f-3062bccfd0ae" />
+
+<img width="1792" height="667" alt="Dashboard" src="https://github.com/user-attachments/assets/0f982e8b-8e1b-4404-9b6c-6e225ba658e4" />
 
 ## Insights
 1.	Electronic category has the highest products.
@@ -62,21 +63,3 @@ Dashboard
 6.	Customers Engagement by category does not directly depend on Discounts.
 ## Recommendation
 1.	Home&Kitchen has potential so 
-
- 
-
-### Project Topic - Amazon-Case-Study 
-### Project Overview 
-The project is based on an e-commerce analytics solutions to sellers on platforms like Amazon. I will be 
-analysing product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement.
-
-### Data Source
- data that that can be dowmloaded from open sources like Kaggle, agaoogle and Fred or any other Data Respository site 
-
-### Tools used 
-- MS Office [Download here ]( https://www.microsoft.com/en-ng/)
-  - For data Cleaning
-  - Data Analyssis
-  - Data Visualizaation
-
-![Dashboard](https://github.com/user-attachments/assets/7df337a0-f988-46c7-b534-eaaae269bdc1)

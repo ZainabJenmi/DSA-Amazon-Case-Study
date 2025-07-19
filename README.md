@@ -24,42 +24,64 @@ The aim of this project is to analyze product and customer review data to genera
     
 ## Dataset Description
 The dataset contains information scraped from Amazon product pages, including:
+    -Product details: name, category, price, discount, and ratings
+    
+-Customer engagement: user reviews, titles, and content
 
-  -Product details: name, category, price, discount, and ratings
-  -Customer engagement: user reviews, titles, and content
-  -Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
-  Total Records: 1,465 rows.
-  Total Fields: 16 columns.
+-Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
+
+Total Records: 1,465 rows.
+Total Fields: 16 columns.
 
 ## Tool
    -Microsoft Excel 
+  
    -Excel Pivot tables 
+  
    -Excel Pivot Charts
 
 ## Process 
-### Step 1: Data Cleaning and transformation 
--Data was first converted into a table
--Then removed duplicates using ProductID, ReviewID and userID
--Excess space and 
--Standard data format to the appropriate format
--Trimming the category then breaking into subcategories for better summarization.
-### Step 2: Data Analysis:
--Created calculated columns for KPI (revenue)
-### Step 3: Data Visualization 
--Built Interactive Dashboard using Slicers filters 
--Used bar chart, graphs to visualize 
--Created KPIs
+#### Step 1: Data Cleaning and transformation
+-Removal of duplicates using ProductID, ReviewID and userID.
+
+-Converting data format to the appropriate format.
+
+-Breaking categories into subcategories for better summarization using delimiter.
+
+-Trimming product name 
+
+#### Step 2: Data Analysis:
+-Calculated Columns: calculation of Revenuw, generating price bucket 
+
+-Pivot tables: For summarization (Average, Counts..).
+
+-Sorting/Filtering:Identification top products by rating and review. 
+
+#### Step 3: Data Visualization 
+-Visualization using bar charts, pie chart and graphs
+
+-Built Interactive Dashboard using Slicers
 
 
 <img width="1792" height="667" alt="Dashboard" src="https://github.com/user-attachments/assets/0f982e8b-8e1b-4404-9b6c-6e225ba658e4" />
 
 ## Insights
 1.	Electronic category has the highest products.
-2.	Most products are rated above average (most rating are between 4.0 – 4.3).
+2.	Most products are rated above average, with majority falling between 4.0 to 4.3
 3.	Product with the highest rating fall under computer accessories category.
 4.	Products with high rating have a high discount.
-5.	Most Products price range are greater than ₹500.
-6.	Customers Engagement by category does not directly depend on Discounts.
+5.	Most Products price range are above ₹500.
+6.	Customers Engagement by category does not directly depend and correlate with Discounts.
    
 ## Recommendation
-1.	Home&Kitchen has potential so 
+-Scale the Computer Accessories category it shows strong customer satisfaction.
+
+-Use customer reviews to identify complaints for product improvement.
+
+-Introduce combo deals in order to boost low performing products.
+
+
+
+Check file for clearer picture of visualization.
+
+
